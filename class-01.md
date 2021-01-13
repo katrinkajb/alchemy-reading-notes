@@ -11,7 +11,7 @@
             - block elements seem to start on a new row
             - inline elements show on the same line as the rest of the text/elements
             - div tags can be used to put multiple pieces of text/elements together into a block
-            - span allows you to group text and elemets in the same line
+            - span allows you to group text and elements in the same line
         - iframes: another site being hosted inside a box on your page (eg, google maps showing a location on a restaurant's site). Needs the src, height, and width.
         - meta element: shows back-end info about a page used by search engines (description, keywords for search engines, index info, etc) and other useful info
         - escape characters must be used when including special characters that are typically used by html (greater-than, less-than, ampersand, single and double-quotes, etc)
