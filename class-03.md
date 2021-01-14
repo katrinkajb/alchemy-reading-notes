@@ -6,4 +6,4 @@
 
 # JS
     ## Ch4: “Decisions and Loops” from switch statements on (pp.162-182)
-        -
+        - Switch Statements start with a switch value variable
