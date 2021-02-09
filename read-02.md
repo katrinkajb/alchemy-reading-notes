@@ -18,27 +18,35 @@ What's important in the articles below is the thinking behind breaking down the 
         - Reusing component styles can help, but it can be hard to maintain
 
 # Step 1 only of Thinking in React 
-    - 
+    - Start with a mockup and break the UI into components
 
 # UI Components by Design  (don't worry about code examples, the process and ideas are what is important)
-    - 
+    - Common language between UI and dev
+    - Working together to determine foundation components with tight feedback loops
+    - build, integrate, then learn and iterate
 
 # Callbacks
     ## What are JavaScript Callbacks? 
-        - 
+        - A function executed after another function has completed. A function used as an argument in another function
+        - Can be used to make sure functions happen in order
     ## JavaScript Callback Functions 
-        - 
+        - This article wouldn't load. I kept getting a 404.
     ## First class functions 
-        - 
+        - Functions that can be treated like a variable (like Callbacks)
     ## MDN Callback function 
-        - 
+        - Used to continue code execution after an async operation has completed.
 
 # Review: Classes
     ## JavaScript classes 
         - 
     ## Intro to Object-oriented programming in JavaScript 
-        - 
+        - Can use extends to put two classes on something
+        - new to create a new object from a class
+        - Can use function to declare a class
+        - Prototype inheritance - new objects created from original one created with new operator inherit all properties from it.
 
 # Review: this
     ## Intro (Read up to, but not including, Internals: Reference type section)
-        - 
+        - this.___ to access specific info in object
+        - Can be re-used in different objects to be more reliable
+        - needs an object or it will show as undefined
