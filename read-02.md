@@ -34,11 +34,11 @@ What's important in the articles below is the thinking behind breaking down the 
     ## First class functions 
         - Functions that can be treated like a variable (like Callbacks)
     ## MDN Callback function 
-        - Used to continue code execution after an async operation has completed.
+        - Used to continue code execution after an async operation has completed. This is used to create prototype objects.
 
 # Review: Classes
     ## JavaScript classes 
-        - 
+        - Using 'class' before a function declaration makes the function the result of the class declaration
     ## Intro to Object-oriented programming in JavaScript 
         - Can use extends to put two classes on something
         - new to create a new object from a class
