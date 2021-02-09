@@ -2,11 +2,20 @@ What's important in the articles below is the thinking behind breaking down the 
 
 # Applying Atomic Design
     Part 1 
-        - 
+        - To design, start big and work your way down.
+        - Organisms - large sections that can be easily extracted from the page
+        - Molecules - sections that can be easily extracted from Organisms. Usually repeated in mult places
+        - Atoms - basic HTML elements(tags) that can't be broken down more without losing functionality
     Part 2
-        -  
+        -  After defining above items, define folder structure representing each atomic stage (atoms folder, molecules folder, organism folder)
+        - To write the code, start small and build up. Make smaller components reusable. 'type' property can help (heading, subheading, or paragraph)
     More examples 
-        - 
+        - React is component-driven for UI development
+        - Potential problems due to lack of governance:
+            -  Re-creating stylesheets and patterns
+            - Interfering styles when they come from different places cause devs to overuse CSS
+            - styles coming from different places can break things on other pages without realizing it
+        - Reusing component styles can help, but it can be hard to maintain
 
 # Step 1 only of Thinking in React 
     - 
