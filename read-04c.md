@@ -24,7 +24,8 @@
 
 # More on Promises
     ## MDN Using Promises 
-        - 
+        - An object representing a future completion of an async operation
+        - Guarantees - then() won't be invoked before completion, callback is invoked regardless of status of async operation, multiple can be stacked.
 
     ## Video on Promises and fetch 
         - Promises - two functions where the second depends on the first, you want to run them in the correct order if the first takes longer to run for whatever reason
@@ -38,13 +39,12 @@
         .catch can be used for errors (when it gets past all success conditions)
 
     ## Google Developer on Promises 
-        - 
+        - fulfilled (success), rejected (failure), pending (hasn't settled yet), settled (completed)
 
 # Using fetch
     ## MDN using fetch 
         - doesn't reject http error status
         - can receive (but doesn't send) cross-site cookies
-        - 
 
     ## Fetching data
         - fetch() makes a network request to an URL and returns a promise that will resolve with a response obj when the remote server responds. Response can be read y calling a response method like text() or json().
