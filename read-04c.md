@@ -1,6 +1,10 @@
 # Synchronous and Asynchronous JavaScript
     ## Callbacks
-        - 
+        - Async means things can happen outside of the program flow/order they are written in
+        - Works better for things that take a while or rely on other systems for a response
+        - Callbacks - Example: eventlisteners that are called when a button is clicked
+            - function passed as a value to another function that's only executed when the event happens
+        - Problem - Not great with a lot of complexity because the amount of nesting
     
     ## Promises 
         - 
@@ -27,7 +31,11 @@
         - Fetch - Put a url into the parenths of fetch to pull info from API
 
     ## Promises in 20 Minutes 
-        - 
+        - Promises can help avoid the complexity with nesting multiple callbacks together
+        - States - from pending to either fulfilled or rejected
+        - Typically baked in to libraries that our apps use
+        - Doesn't stop at error/failure, but can continue to next part of code
+        .catch can be used for errors (when it gets past all success conditions)
 
     ## Google Developer on Promises 
         - 
