@@ -5,9 +5,6 @@
         - Callbacks - Example: eventlisteners that are called when a button is clicked
             - function passed as a value to another function that's only executed when the event happens
         - Problem - Not great with a lot of complexity because the amount of nesting
-    
-    ## Promises 
-        - 
 
     ## MDN on Asynchronous 
         - Happens with a delay (out of order)
