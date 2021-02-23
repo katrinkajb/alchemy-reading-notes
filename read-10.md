@@ -11,4 +11,5 @@
     - box-shadow to add shadow to button
     - Validation
         - input[type='__']:valid to style only when valid
-        
+        - to add checkbox next to inputs when correct, use +.class  after the above
+        - Have to use float to make sure they are all showing on correct lines
