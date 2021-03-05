@@ -1,0 +1,3 @@
+# D&I in Tech
+    - These were good reads, but not too new for me since I'd been reading about and getting involved in DE&I work for years at past companies.
+    - I'm glad this is assigned reading for us because I think it's something a lot of non-minority people new to the industry may not necessarily see if they aren't paying attention. But also knowing that diversity in ethnicity, neurodiversity, ability-level, lgbtqia+, age, etc are all things that are still lacking in the tech industry.
